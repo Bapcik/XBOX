@@ -1,0 +1,28 @@
+$color-white: #FFFFFF;
+$color-translucent: rgba(255, 255, 255, 0.5);
+$text-size-a: 16px;
+
+.header-background {
+    background-color: #373A3C;
+    border-radius: 4px;
+}
+
+.navbar {
+    button {
+        background-color: #8DD83D;
+    }
+
+    a {
+        color: $color-translucent;
+        font-size: $text-size-a;
+        margin: 0 45px 0 0;
+
+        &::after {
+            color: rgba(255, 255, 255, 0);
+        }
+
+        .arrow {
+            margin: 5px 0;
+        }
+    }
+}

@@ -1,0 +1,382 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.header-background {
+  background-color: #373A3C;
+  border-radius: 4px;
+}
+
+.navbar button {
+  background-color: #8DD83D;
+}
+.navbar a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin: 0 45px 0 0;
+}
+.navbar a::after {
+  color: rgba(255, 255, 255, 0);
+}
+.navbar a .arrow {
+  margin: 5px 0;
+}
+
+.background-main {
+  background-color: #4F4F4F;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.background-main .green-button {
+  background-color: #8DD83D;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.background-main .grey-button {
+  background-color: #828282;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.star-wars-block {
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.star-wars-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(10%, 150%);
+  color: #FFFFFF;
+}
+.star-wars-text h2 {
+  font-size: 36px;
+}
+.star-wars-text p {
+  font-size: 24px;
+}
+.star-wars-text .button-tityl {
+  display: flex;
+}
+.star-wars-text .button-tityl .button-watch {
+  padding: 8px 23px 9px 19px;
+  display: block;
+  width: 136px;
+  height: 38px;
+  margin: 0 13px 0 0;
+}
+.star-wars-text .button-tityl .button-explore {
+  padding: 8px 21px 9px 19px;
+  display: block;
+  width: 148px;
+  height: 38px;
+}
+
+.logo-xbox {
+  color: #FFFFFF;
+  margin: 64px 0 43px;
+}
+.logo-xbox h1 {
+  font-size: 48px;
+}
+.logo-xbox p {
+  font-size: 36px;
+}
+
+.tityl-grid-card {
+  padding: 0 0 162px 0;
+}
+.tityl-grid-card .grid-card {
+  padding: 43px 0 162px;
+}
+.tityl-grid-card .grid-card .card-tityl {
+  border: 1px solid #8DD83D;
+  border-radius: 4px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #FFFFFF;
+}
+.tityl-grid-card .grid-card .card-tityl .card-game {
+  padding: 0 21px 0;
+  text-align: left;
+  background-color: #FFFFFF;
+}
+.tityl-grid-card .grid-card .card-tityl .card-game h3 {
+  margin: 20px 0 13px;
+  font-size: 18px;
+  color: #435766;
+}
+.tityl-grid-card .grid-card .card-tityl .card-game p {
+  color: #435766;
+  margin: 0 0 40px;
+  width: 255px;
+  font-size: 24px;
+}
+.tityl-grid-card .grid-card .card-tityl .card-game a {
+  display: block;
+  width: 287px;
+  height: 60px;
+  padding: 19px 0 0;
+  text-align: center;
+  background-color: #8DD83D;
+  margin: 0 21px 27px;
+}
+.tityl-grid-card .grid-card .card-tityl img {
+  width: 100%;
+}
+
+.xbox-design-lab {
+  position: relative;
+  color: #FFFFFF;
+}
+.xbox-design-lab img {
+  width: 100%;
+}
+.xbox-design-lab h2 {
+  font-size: 48px;
+  margin: 0 0 10px;
+}
+.xbox-design-lab p {
+  font-size: 24px;
+  margin: 0 0 39px;
+}
+.xbox-design-lab .button-xbox-lab {
+  display: flex;
+}
+.xbox-design-lab .button-xbox-lab .button-desing {
+  display: block;
+  width: 207px;
+  height: 60px;
+  padding: 20px 61px 19px 52px;
+  margin: 0 15px 0 0;
+  background-color: #828282;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.xbox-design-lab .button-xbox-lab .button-explore-consoles {
+  display: block;
+  width: 278px;
+  height: 60px;
+  padding: 19px 26px 20px 23px;
+  background-color: #8DD83D;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.xbox-design-lab .xbox-lab {
+  width: 50%;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(19%, 32%);
+}
+
+.footer-background {
+  display: flex;
+  background-color: #373A3C;
+  height: 395px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-xbox {
+  display: flex;
+  flex-direction: column;
+}
+.footer-xbox p {
+  color: #7DD42F;
+  font-size: 18px;
+  margin: 58px 0 35px;
+  font-weight: 700;
+}
+.footer-xbox nav a {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-basis: 270px;
+  max-width: 92%;
+}
+
+.xbox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.xbox nav li {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px;
+}
+
+.developers {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.developers nav li {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+.follow-us nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 105px;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
+
+.line::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin: 50px 0 19px 0;
+}
+
+.line-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.line-text a {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+}
+.line-text p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}/*# sourceMappingURL=main.css.map */

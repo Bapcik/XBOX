@@ -1,0 +1,194 @@
+$text-title: 48px;
+$text-size-main: 36px;
+$text-h3: 18px;
+$text-game-block: 24px;
+$color-text-grey: #435766;
+
+@mixin green-button {
+    background-color: #8DD83D;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@mixin grey-button {
+    background-color: #828282;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.background-main {
+    background-color: #4F4F4F;
+    width: 100%;
+    height: fit-content;
+
+    .green-button {
+        @include green-button;
+    }
+
+    .grey-button {
+
+        @include grey-button;
+    }
+}
+
+.star-wars-block {
+    position: relative;
+    height: fit-content;
+}
+
+.star-wars-text {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(10%, 150%);
+    color: $color-white;
+
+
+    h2 {
+        font-size: $text-size-main;
+    }
+
+    p {
+        font-size: $text-game-block;
+    }
+
+    .button-tityl {
+        display: flex;
+
+        .button-watch {
+            padding: 8px 23px 9px 19px;
+            display: block;
+            width: 136px;
+            height: 38px;
+            margin: 0 13px 0 0;
+        }
+
+        .button-explore {
+            padding: 8px 21px 9px 19px;
+            display: block;
+            width: 148px;
+            height: 38px;
+        }
+    }
+}
+
+.logo-xbox {
+    color: $color-white;
+    margin: 64px 0 43px;
+
+    h1 {
+        font-size: $text-title;
+    }
+
+    p {
+        font-size: $text-size-main;
+    }
+
+}
+
+.tityl-grid-card {
+    padding: 0 0 162px 0;
+
+    .grid-card {
+        padding: 43px 0 162px;
+
+
+        .card-tityl {
+            border: 1px solid #8DD83D;
+            border-radius: 4px;
+            height: fit-content;
+            background-color: $color-white;
+
+            .card-game {
+                padding: 0 21px 0;
+                text-align: left;
+                background-color: $color-white;
+
+
+                h3 {
+                    margin: 20px 0 13px;
+                    font-size: $text-h3;
+                    color: $color-text-grey;
+                }
+
+                p {
+                    color: $color-text-grey;
+                    margin: 0 0 40px;
+                    width: 255px;
+                    font-size: $text-game-block;
+                }
+
+                a {
+                    display: block;
+                    width: 287px;
+                    height: 60px;
+                    padding: 19px 0 0;
+                    text-align: center;
+                    background-color: #8DD83D;
+                    margin: 0 21px 27px;
+                }
+
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+.xbox-design-lab {
+    position: relative;
+    color: $color-white;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: $text-title;
+        margin: 0 0 10px;
+    }
+
+    p {
+        font-size: $text-game-block;
+        margin: 0 0 39px;
+    }
+
+
+    .button-xbox-lab {
+        display: flex;
+
+        .button-desing {
+            display: block;
+            width: 207px;
+            height: 60px;
+            padding: 20px 61px 19px 52px;
+            margin: 0 15px 0 0;
+            @include grey-button;
+
+        }
+
+        .button-explore-consoles {
+            display: block;
+            width: 278px;
+            height: 60px;
+            padding: 19px 26px 20px 23px;
+            @include green-button;
+        }
+    }
+
+    .xbox-lab {
+        width: 50%;
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(19%, 32%);
+    }
+}
